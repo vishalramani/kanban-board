@@ -61,6 +61,10 @@
     padding: 0 1.5rem;
 }
 
+.boardActionContainer a{
+    font-size: 1.5rem;
+}
+
 .resetFilter{
     font-size: 1.25rem;
     padding: 0.4rem;
@@ -232,12 +236,12 @@
 
 .modal-content{
     height: 50vh;
-    width: 50vh;
+    width: 50vw;
     display: flex;
     border: 2px solid grey;
     position: fixed;
     left: 25vw;
-    top: 25vw;
+    top: 25vh;
 }
 
 .textarea-cont{

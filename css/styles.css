@@ -27,12 +27,29 @@
 .toolBoxPriorityContainer{
     height: 5rem;
     background-color: aliceblue;
-    width: 32rem;
+    width: auto;
     margin-left: 10rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 1rem;
+    padding: 0 1.5rem;
+}
+
+.boardActionContainer{
+    height: 5rem;
+    background-color: aliceblue;
+    width: auto;
+    margin-left: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1.5rem;
+}
+
+.boardActionContainer a{
+    font-size: 1.5rem;
 }
 
 .color{
@@ -152,12 +169,12 @@
 
 .modal-content{
     height: 50vh;
-    width: 50vh;
+    width: 50vw;
     display: flex;
     border: 2px solid grey;
     position: fixed;
     left: 25vw;
-    top: 25vw;
+    top: 25vh;
 }
 
 .textarea-cont{
